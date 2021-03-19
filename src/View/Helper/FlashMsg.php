@@ -1,12 +1,12 @@
 <?php
 
-namespace Laminas\Mvc\Plugin\FlashMessenger\View\Helper;
+namespace Juuce\Flashmessenger\Laminas\View\Helper;
 
-use Laminas\View\Helper\AbstractHelper;
+use \Laminas\View\Helper\AbstractHelper;
 //use Laminas\View\Helper\FlashMessenger;  // See below
-use Laminas\Mvc\Plugin\FlashMessenger\View\Helper\FlashMessenger;
-use Laminas\View\Helper\InlineScript;
-use Laminas\View\Helper\HeadLink;
+use \Laminas\Mvc\Plugin\FlashMessenger\View\Helper\FlashMessenger;
+use \Laminas\View\Helper\InlineScript;
+use \Laminas\View\Helper\HeadLink;
 //use Laminas\View\Helper\BasePath;  // Removed from original code
 use Laminas\View\Helper\Url;
 class FlashMsg extends AbstractHelper

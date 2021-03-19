@@ -1,9 +1,9 @@
 <?php
 
-namespace Laminas\Mvc\Plugin\FlashMessenger;
+namespace Juuce\Flashmessenger\Laminas;
 
-use Laminas\Mvc\ModuleRouteListener;
-use Laminas\Mvc\MvcEvent;
+use \Laminas\Mvc\ModuleRouteListener;
+use \Laminas\Mvc\MvcEvent;
 
 class Module {
     public function onBootstrap(MvcEvent $e) {

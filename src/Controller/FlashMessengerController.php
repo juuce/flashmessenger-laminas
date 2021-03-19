@@ -5,14 +5,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-namespace Laminas\Mvc\Plugin\FlashMessenger\Controller;
+namespace Juuce\Flashmessenger\Laminas\Controller;
 /**
  * Description of DemoController
  *
  * @author web
  */
-use Laminas\Mvc\Controller\AbstractActionController;
-use Laminas\View\Model\ViewModel;
+use \Laminas\Mvc\Controller\AbstractActionController;
+use \Laminas\View\Model\ViewModel;
 
 class FlashmessengerController extends AbstractActionController
 {
