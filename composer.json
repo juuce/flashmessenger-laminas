@@ -1,20 +1,23 @@
 {
-  "name": "jenzri-nizar/zf3-flashmessenger",
-  "description": "Zend Framework 3 flashmessenger",
-  "keywords": ["zend Framework 3", "flashmessenger", "Zend"],
-  "license": [
-    "MIT"
-  ],
-  "authors": [
-    {
-      "name": "Jenzri Nizar",
-      "email": "jenzri.nizar.off@gmail.com"
-    }
-  ],
-  "require": {
-    "php": ">=5.4.0"
-  },
-  "autoload": {
-    "psr-4": { "Zf3\\Flashmessenger\\": "src/" }
-  }
+	"name" : "juuce/flashmessenger-laminas",
+	"description" : "Laminas MVC flashmessenger",
+	"keywords" : [
+		"Laminas MVC framework",
+		"flashmessenger",
+		"Zend"
+	],
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Juuce",
+			"email" : "talk@juuce.com"
+		}
+	],
+	"require" : {
+		"php" : ">=7.4"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Juuce\\Flashmessenger\\Laminas" : "src/"
+		}
+	}
 }

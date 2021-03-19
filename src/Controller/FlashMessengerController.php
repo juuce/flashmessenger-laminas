@@ -5,23 +5,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-namespace Zf3\Flashmessenger\Controller;
+namespace Laminas\Mvc\Plugin\FlashMessenger\Controller;
 /**
  * Description of DemoController
  *
  * @author web
  */
-use Zend\Mvc\Controller\AbstractActionController;
-use Zend\View\Model\ViewModel;
+use Laminas\Mvc\Controller\AbstractActionController;
+use Laminas\View\Model\ViewModel;
 
 class FlashmessengerController extends AbstractActionController
 {
     public function indexAction()
     {
-        $this->flashmessenger()->addSuccessMessage('Un message de réussite');
-        $this->flashmessenger()->addErrorMessage('Erreur avec le système.');
-        $this->flashmessenger()->addInfoMessage('Info message');
-        $this->flashmessenger()->addWarningMessage('Message d\'avertissement.');
+        $this->flashmessenger()->addSuccessMessage('Sample Success message');
+        $this->flashmessenger()->addErrorMessage('Sample Error message.');
+        $this->flashmessenger()->addInfoMessage('Sample Info message');
+        $this->flashmessenger()->addWarningMessage('Sample warning message.');
         return new ViewModel();
     }
     

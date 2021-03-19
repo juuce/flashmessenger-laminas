@@ -1,13 +1,14 @@
 <?php
 
-namespace Zf3\Flashmessenger\View\Helper;
+namespace Laminas\Mvc\Plugin\FlashMessenger\View\Helper;
 
-use Zend\View\Helper\AbstractHelper;
-use Zend\View\Helper\FlashMessenger;
-use Zend\View\Helper\InlineScript;
-use Zend\View\Helper\HeadLink;
-use Zend\View\Helper\BasePath;
-use Zend\View\Helper\Url;
+use Laminas\View\Helper\AbstractHelper;
+//use Laminas\View\Helper\FlashMessenger;  // See below
+use Laminas\Mvc\Plugin\FlashMessenger\View\Helper\FlashMessenger;
+use Laminas\View\Helper\InlineScript;
+use Laminas\View\Helper\HeadLink;
+//use Laminas\View\Helper\BasePath;  // Removed from original code
+use Laminas\View\Helper\Url;
 class FlashMsg extends AbstractHelper
 {
     private $flashMessenger;
